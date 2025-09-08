@@ -7,7 +7,8 @@
 ## Live Demo
 
 Δες την εφαρμογή **live** στο GitHub Pages:  
-[https://nikosAg704.github.io/SLIDERS-PROJECT/](https://nikosAg704.github.io/SLIDERS-PROJECT/)
+[Live Demo](https://NikosAg704.github.io/SLIDERS‑PROJECT/)
+
 
 ---
 
