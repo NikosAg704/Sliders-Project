@@ -34,7 +34,7 @@
 
 1. Κάνε clone το repo:
    ```bash
-   git clone https://github.com/NikosAg704/SLIDERS‑PROJECT.git
+   git clone https://github.com/NikosAg704/SLIDERS‑PROJECT/index.html.git
 
     Άνοιξε απλώς το index.html σε browser.
 
