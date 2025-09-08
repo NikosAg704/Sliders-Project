@@ -7,7 +7,7 @@
 ##  Live Demo
 
 Δες την εφαρμογή **live** στο GitHub Pages:
-[https://NikosAg704.github.io/SLIDERS‑PROJECT/](https://NikosAg704.github.io/SLIDERS‑PROJECT/index.html)
+[https://NikosAg704.github.io/SLIDERS‑PROJECT/](https://NikosAg704.github.io/SLIDERS‑PROJECT/)
 
 ---
 
@@ -34,7 +34,7 @@
 
 1. Κάνε clone το repo:
    ```bash
-   git clone https://github.com/NikosAg704/SLIDERS‑PROJECT/index.html.git
+   git clone https://github.com/NikosAg704/SLIDERS‑PROJECT/.git
 
     Άνοιξε απλώς το index.html σε browser.
 
