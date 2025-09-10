@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   background-image: url("images/all avengers.png");
   background-size: cover;
-  background-position: 10% 10%; /* Καλύτερη τοποθέτηση για να φαίνονται όλοι */
+  background-position: 10% 10%; 
   background-attachment: fixed;
   overflow-x: hidden;
   backdrop-filter: blur(2px);
@@ -47,7 +47,7 @@ body {
 
 /* Εικόνες desktop */
 .slider-container img {
-  width: 230px;   /* σταθερό πλάτος αντί για ποσοστό */
+  width: 230px;  
   height: 290px;
   flex-shrink: 0;
   border-radius: 50px;
