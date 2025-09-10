@@ -7,7 +7,8 @@ Interactive frontend application inspired by Netflix UI, built only with HTML, C
 🌐 Live Demo
 
 👉 Check out the app live on GitHub Pages:
-🔗 Live Demo
+🔗 Live Demo https://nikosag704.github.io/SLIDERS-PROJECT/
+
 
 (📱 For mobile or tablet, rotate your device to landscape mode.)
 
