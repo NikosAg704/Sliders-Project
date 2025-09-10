@@ -54,4 +54,4 @@ If you’re interested in collaboration or feedback:
 
 📧 Email: nikosytf@gmail.com
 
-🔗 LinkedIn:https://www.linkedin.com/in/nikolaos-agiasmenakis-9496b0322/
+🔗 LinkedIn: https://www.linkedin.com/in/nikolaos-agiasmenakis-9496b0322/
