@@ -3,12 +3,13 @@ body {
   font-family: Arial, sans-serif;
   background-image: url("images/all avengers.png");
   background-size: cover;
-  background-position: center;
+  background-position: top center; /* Καλύτερη τοποθέτηση για να φαίνονται όλοι */
   background-attachment: fixed;
   overflow-x: hidden;
   backdrop-filter: blur(2px);
 }
 
+/* Κεντρικός τίτλος */
 .title {
   font-size: 4rem;
   font-weight: bold;
@@ -22,23 +23,18 @@ body {
   backdrop-filter: blur(6px);
   animation: pulse 3s infinite ease-in-out;
   text-align: center;
-  margin-top: 80px;
-  margin-bottom: 280px;
+  margin: 60px auto 150px auto;
   width: fit-content;
-
-  /* 👇 Τοποθέτηση πιο δεξιά */
-  position: relative;
-  left: 50%;
 }
 
 .slider-wrapper {
   position: relative;
-  max-width: 90%;
-  margin: 0 auto;
+  max-width: 95%;
+  margin: 150px auto 0 auto; /* 👈 έβαλα 150px από πάνω αντί για 0 */
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 15px;
-  padding: 20px;
+  padding: 15px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(8px);
 }
@@ -49,9 +45,10 @@ body {
   gap: 10px;
 }
 
+/* Εικόνες desktop */
 .slider-container img {
-  width: 10%;
-  height: auto;
+  width: 200px;   /* σταθερό πλάτος αντί για ποσοστό */
+  height: 260px;
   flex-shrink: 0;
   border-radius: 10px;
   object-fit: cover;
@@ -65,6 +62,20 @@ body {
   box-shadow: 0 6px 20px rgba(255, 255, 255, 0.5);
 }
 
+/* Preview box image */
+#preview-img {
+  height: auto;
+  max-height: 400px;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Κουμπιά slider */
 .arrow {
   position: absolute;
   top: 50%;
@@ -79,40 +90,50 @@ body {
   border-radius: 50%;
 }
 
-.left {
-  left: 10px;
-}
-
-.right {
-  right: 10px;
-}
+.left { left: 10px; }
+.right { right: 10px; }
 
 .arrow:hover {
   background: rgba(255, 255, 255, 0.3);
 }
 
+/* Animation τίτλου */
 @keyframes pulse {
-  0%, 100% {
-    transform: translate(-50%, -50%) scale(1);
-   
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+/* ------------------------------
+   📱 Responsive κανόνες για κινητό
+--------------------------------*/
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+    margin: 40px auto 100px auto;
   }
-  50% {
-    transform: translate(-50%, -50%) scale(1.05);
-    
+
+  .slider-container img {
+    width: 120px;
+    height: 180px;
+  }
+
+  #preview-img {
+    max-height: 250px;
   }
 }
 
-/* preview εικόνα ίδια για όλες */
-#preview-img {
-  height: 400px;
-  object-fit: contain;
-  border-radius: 10px;
-  margin-bottom: 15px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+    margin: 30px auto 80px auto;
+  }
 
+  .slider-container img {
+    width: 100px;
+    height: 150px;
+  }
+
+  #preview-img {
+    max-height: 200px;
+  }
 }
-
-
-
