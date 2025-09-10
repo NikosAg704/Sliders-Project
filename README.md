@@ -1,55 +1,57 @@
 # Marvel Sliders
 
-**Διαδραστική frontend εφαρμογή τύπου Netflix UI**, με χρήση μόνο **HTML**, **CSS** και **JavaScript**, όπου παρουσιάζονται ταινίες της Marvel μέσα από ένα οριζόντιο slider και ένα δυναμικό preview box.
+🎬 Marvel Sliders
 
----
+Interactive frontend application inspired by Netflix UI, built only with HTML, CSS, and JavaScript, showcasing Marvel movies through a horizontal slider and a dynamic preview box.
 
-## Live Demo
+🌐 Live Demo
 
-Δες την εφαρμογή **live** στο GitHub Pages:  
-[Live Demo](https://NikosAg704.github.io/SLIDERS-PROJECT/)
+👉 Check out the app live on GitHub Pages:
+🔗 Live Demo
+
+(📱 For mobile or tablet, rotate your device to landscape mode.)
+
+🛠️ Technologies & Stack
+
+⚡ HTML5 – Structure and markup for the slider and preview box
+
+🎨 CSS3 – Styling with animations, responsive design, hover effects, and backdrop filters
+
+🧩 JavaScript (Vanilla) – Logic for slider navigation, keyboard support, and interactive previews
+
+✨ Features
+
+🎞️ Netflix-style slider with smooth scrolling (mouse click & arrow buttons ← / →)
+
+⌨️ Keyboard navigation: control with keyboard arrow keys
+
+🖼️ Preview box with image, title, duration, and short description (popup on-click with smooth scroll)
+
+📱 Responsive design for mobile, tablet, and desktop
+
+💫 UI effects: hover zoom, shadows, blur background, pulsating title — creating a dynamic and engaging interface
+
+⚙️ Quick Setup (Local)
+
+Clone the repo:
+
+git clone https://github.com/NikosAg704/SLIDERS-PROJECT.git
 
 
+Open the index.html file directly in your browser.
 
----
+📝 Notes
 
-## Technologies & Stack
+🖥️ This project is pure frontend — no backend or video playback included.
 
-- **HTML5** – Δομή και markup για το slider και το preview box  
-- **CSS3** – Styling με animations, responsive design, hover effects, και backdrop filters  
-- **JavaScript (Vanilla)** – Λογική για slider navigation, keyboard support και previews με περιγραφή
+🖼️ Images are for educational/demo purposes and sourced from public media.
 
----
+🎨 Designed with a focus on modern web aesthetics, functionality, and usability.
 
-## Features
+📬 Contact
 
-- **Netflix‑style slider** με smooth κύλιση (mouse click & κουμπιά ← / →)  
-- **Keyboard navigation**: λειτουργία με τα βελάκια του πληκτρολογίου  
-- **Preview box** με εικόνα, τίτλο, διάρκεια και σύντομη περιγραφή (popup γίνεται on-click και κάνει smooth scroll)  
-- **Responsive σχεδιασμός** για mobile, tablet και desktop  
-- **Εφέ UI**: hover zoom, shadows, blur background, pulsating τίτλος — δημιουργούν έναν δυναμικό και εντυπωσιακό σχεδιασμό  
+If you’re interested in collaboration or feedback:
 
----
+📧 Email: nikosytf@gmail.com
 
-## Quick Setup (Local)
-
-1. Κάνε clone το repo:  
-   ```bash
-   git clone https://github.com/NikosAg704/SLIDERS-PROJECT.git
-
-
-Notes / Σημειώσεις
-
-Το project είναι καθαρό frontend — δεν περιλαμβάνει backend ή playback βίντεο.
-
-Οι εικόνες είναι εκπαιδευτικές και μπορούν να προέρχονται από δημόσιες πηγές.
-
-Σχεδιασμένο με γνώμονα τη σύγχρονη web αισθητική, αλλά και τη λειτουργικότητα και ευχρηστία.
-
-Επικοινωνία
-
-Αν σε ενδιαφέρει συνεργασία ή feedback:
-
-Email: nikosytf@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/nikolaos-agiasmenakis-9496b0322/
+🔗 LinkedIn:https://www.linkedin.com/in/nikolaos-agiasmenakis-9496b0322/
