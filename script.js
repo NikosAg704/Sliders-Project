@@ -40,7 +40,38 @@ window.addEventListener("load", () => {
   updateSlider();
 });
 
-// Περιγραφές (εδώ τα ονόματα πρέπει να ταιριάζουν ακριβώς με τα αρχεία)
+/* ------------------------------------------
+   📱 SWIPE ΛΕΙΤΟΥΡΓΙΑ για κινητά & tablet
+-------------------------------------------*/
+let startX = 0;
+let endX = 0;
+
+slider.addEventListener("touchstart", (e) => {
+  startX = e.touches[0].clientX;
+});
+
+slider.addEventListener("touchmove", (e) => {
+  endX = e.touches[0].clientX;
+});
+
+slider.addEventListener("touchend", () => {
+  const diff = startX - endX;
+  const threshold = 50; // απόσταση σε px για να θεωρηθεί swipe
+
+  if (diff > threshold) {
+    // swipe αριστερά → επόμενο
+    index++;
+    updateSlider();
+  } else if (diff < -threshold) {
+    // swipe δεξιά → προηγούμενο
+    index--;
+    updateSlider();
+  }
+});
+
+/* ------------------------------------------
+   📦 Preview λειτουργία (όπως πριν)
+-------------------------------------------*/
 const imageDescriptions = {
   "captain-america.jpg": {
     duration: "2h 4min",
@@ -120,7 +151,6 @@ const imageDescriptions = {
   }
 };
 
-
 // Preview DOM στοιχεία
 const previewBox = document.getElementById("preview-box");
 const previewImg = document.getElementById("preview-img");
@@ -134,7 +164,6 @@ Array.from(slider.querySelectorAll("img")).forEach(img => {
   img.addEventListener("click", () => {
     const src = img.src;
     const filename = decodeURIComponent(src.substring(src.lastIndexOf("/") + 1));
-
 
     previewImg.src = src;
     previewImg.alt = img.alt;
