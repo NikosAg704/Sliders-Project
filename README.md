@@ -37,7 +37,7 @@ Interactive frontend application inspired by Netflix UI, built only with HTML, C
 
 Clone the repo:
 
-git clone https://github.com/NikosAg704/SLIDERS-PROJECT.git
+git clone https://github.com/NikosAg704/Sliders-Project.git
 
 
 Open the index.html file directly in your browser.
